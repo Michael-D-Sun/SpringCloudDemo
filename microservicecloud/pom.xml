@@ -12,6 +12,8 @@
         <module>micorservicecloud-provider-dept-8001</module>
         <module>microservicecloud-consumer-dept-80</module>
         <module>microservicecloud-eureka-7001</module>
+        <module>microservicecloud-eureka-7002</module>
+        <module>microservicecloud-eureka-7003</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -75,35 +77,35 @@
         </dependencies>
     </dependencyManagement>
 
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--                <version>1.5.9.RELEASE</version>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
-
     <build>
-        <finalName>microservicecloud</finalName>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <configuration>
-                    <delimiters>
-                        <delimit>$</delimit>
-                    </delimiters>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.9.RELEASE</version>
             </plugin>
         </plugins>
     </build>
+
+<!--    <build>-->
+<!--        <finalName>microservicecloud</finalName>-->
+<!--        <resources>-->
+<!--            <resource>-->
+<!--                <directory>src/main/resources</directory>-->
+<!--                <filtering>true</filtering>-->
+<!--            </resource>-->
+<!--        </resources>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-resources-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <delimiters>-->
+<!--                        <delimit>$</delimit>-->
+<!--                    </delimiters>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 </project>
