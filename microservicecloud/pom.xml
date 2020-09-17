@@ -11,6 +11,7 @@
         <module>microservicecloud-api</module>
         <module>micorservicecloud-provider-dept-8001</module>
         <module>microservicecloud-consumer-dept-80</module>
+        <module>microservicecloud-eureka-7001</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -31,7 +32,7 @@
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Dalston.SR1</version>
                 <type>pom</type>
-                <scope>provided</scope>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
