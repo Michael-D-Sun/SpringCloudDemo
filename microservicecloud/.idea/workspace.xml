@@ -56,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/micorservicecloud-provider-dept-8001/src/main/resources/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mciroservicecloud-provider-dept-8003/src/main" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4073648" />
@@ -67,11 +67,14 @@
       <recent name="springcloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\mciroservicecloud-provider-dept-8003\src\main" />
+      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\mciroservicecloud-provider-dept-8003\src" />
+      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-provider-dept-8002\src" />
       <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\micorservicecloud-provider-dept-8001\src\main\resources\mybatis" />
       <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\micorservicecloud-provider-dept-8001\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptProvider8001_App">
+  <component name="RunManager" selected="Spring Boot.DeptConsumer80_App">
     <configuration name="DeptConsumer80_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer-dept-80" />
       <extension name="coverage">
@@ -98,15 +101,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservicecloud-eureka-7001" />
+    <configuration name="DeptProvider8002_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservicecloud-provider-dept-8002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.michael.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.EurekaServer7001_App" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.DeptProvider8002_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8003_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mciroservicecloud-provider-dept-8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.michael.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.DeptProvider8003_App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DeptConsumer80_App" />
+        <item itemvalue="Spring Boot.DeptProvider8003_App" />
+        <item itemvalue="Spring Boot.DeptProvider8002_App" />
         <item itemvalue="Spring Boot.DeptProvider8001_App" />
         <item itemvalue="Spring Boot.EurekaServer7002_App" />
-        <item itemvalue="Spring Boot.EurekaServer7001_App" />
-        <item itemvalue="Spring Boot.DeptConsumer80_App" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +171,8 @@
       <workItem from="1600079890981" duration="4047000" />
       <workItem from="1600166720602" duration="8150000" />
       <workItem from="1600255850118" duration="8132000" />
-      <workItem from="1600344650599" duration="7434000" />
+      <workItem from="1600344650599" duration="7535000" />
+      <workItem from="1600428077157" duration="5349000" />
     </task>
     <servers />
   </component>
@@ -190,38 +208,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2654" y="261" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600175342863" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1600354798189">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1600437802035">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798189" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1600354798189">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1600437802035">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798189" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1600354798189">
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1600437802035">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798189" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1600354798189">
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1600437802035">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798189" />
-    <state width="1877" height="321" key="GridCell.Tab.1.bottom" timestamp="1600354798190">
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1600437802036">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798190" />
-    <state width="1877" height="321" key="GridCell.Tab.1.center" timestamp="1600354798190">
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
+    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1600437802036">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798190" />
-    <state width="1877" height="321" key="GridCell.Tab.1.left" timestamp="1600354798190">
+    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
+    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1600437802035">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798190" />
-    <state width="1877" height="321" key="GridCell.Tab.1.right" timestamp="1600354798190">
+    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
+    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1600437802036">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600354798190" />
+    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1600176591160">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -230,10 +248,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2582" y="254" width="649" height="532" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600345855064" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1600353114972">
+    <state x="2254" y="180" key="new project wizard" timestamp="1600435591620">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600353114972" />
+    <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600435591620" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
