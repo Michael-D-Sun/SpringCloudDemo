@@ -63,6 +63,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="springcloud" />
     </key>
@@ -127,6 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-eureka-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.EurekaServer7001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer7002_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-eureka-7002" />
       <extension name="coverage">
@@ -173,6 +183,7 @@
       <workItem from="1600255850118" duration="8132000" />
       <workItem from="1600344650599" duration="7535000" />
       <workItem from="1600428077157" duration="5349000" />
+      <workItem from="1600473183304" duration="4973000" />
     </task>
     <servers />
   </component>
@@ -192,14 +203,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600173886921">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600478543326">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600173886921" />
-    <state x="2293" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600258855623">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600478543326" />
+    <state x="2293" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600476331288">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2293" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600258855623" />
+    <state x="2293" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600476331288" />
+    <state x="2532" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600476332922">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2532" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600476332922" />
     <state x="2664" y="358" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600173880961">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -208,38 +223,42 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2654" y="261" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600175342863" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1600437802035">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1600437802035">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1600437802035">
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1600437802035">
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1600437802036">
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1600479971498">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
-    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1600437802036">
+    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971498" />
+    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
-    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1600437802035">
+    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802035" />
-    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1600437802036">
+    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1600479971497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600437802036" />
+    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600479971497" />
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1600478512350">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600478512350" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1600176591160">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
