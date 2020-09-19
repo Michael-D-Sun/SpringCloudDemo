@@ -1,8 +1,6 @@
 package cn.michael.springcloud.service;
 
-import cn.michael.springcloud.dao.entities.Dept;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
+import cn.michael.springcloud.entities.Dept;
 
 import java.util.List;
 

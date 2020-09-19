@@ -1,6 +1,6 @@
 package cn.michael.springcloud.dao;
 
-import cn.michael.springcloud.dao.entities.Dept;
+import cn.michael.springcloud.entities.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

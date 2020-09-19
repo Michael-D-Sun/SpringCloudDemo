@@ -1,6 +1,6 @@
 package cn.michael.springcloud.Controller;
 
-import cn.michael.springcloud.dao.entities.Dept;
+import cn.michael.springcloud.entities.Dept;
 import cn.michael.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

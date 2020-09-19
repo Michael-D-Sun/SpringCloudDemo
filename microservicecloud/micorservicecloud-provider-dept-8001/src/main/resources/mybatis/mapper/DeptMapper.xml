@@ -4,13 +4,13 @@
 
 <mapper namespace="cn.michael.springcloud.dao.DeptDao">
 
-	<select id="findById" resultType="cn.michael.springcloud.dao.entities.Dept" parameterType="Int">
+	<select id="findById" resultType="cn.michael.springcloud.entities.Dept" parameterType="Int">
 		select deptno,dname,db_source from dept where deptno=#{deptno};
 	</select>
-	<select id="findAll" resultType="cn.michael.springcloud.dao.entities.Dept">
+	<select id="findAll" resultType="cn.michael.springcloud.entities.Dept">
 		select deptno,dname,db_source from dept;
 	</select>
-	<insert id="addDept" parameterType="cn.michael.springcloud.dao.entities.Dept">
+	<insert id="addDept" parameterType="cn.michael.springcloud.entities.Dept">
 		INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
 	</insert>
 

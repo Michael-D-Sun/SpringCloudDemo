@@ -1,7 +1,7 @@
 package cn.michael.springcloud.service;
 
 import cn.michael.springcloud.dao.DeptDao;
-import cn.michael.springcloud.dao.entities.Dept;
+import cn.michael.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

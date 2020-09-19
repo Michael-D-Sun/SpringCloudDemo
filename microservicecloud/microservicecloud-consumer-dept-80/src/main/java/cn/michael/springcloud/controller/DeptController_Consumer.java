@@ -1,7 +1,7 @@
 package cn.michael.springcloud.controller;
 
 
-import cn.michael.springcloud.dao.entities.Dept;
+import cn.michael.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +27,6 @@ public class DeptController_Consumer {
 
     @RequestMapping(value = "/consumer/dept/get/{id}")
     public Dept get(@PathVariable("id") Integer id){
-        System.out.println("consumer get....");
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/get/" + id,Dept.class);
     }
 
