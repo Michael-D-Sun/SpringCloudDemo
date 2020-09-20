@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e424ae4-da82-4f4a-aba6-9caf027e387b" name="Default Changelist" comment="" />
+    <list default="true" id="3e424ae4-da82-4f4a-aba6-9caf027e387b" name="Default Changelist" comment="add a class">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/cn/michael/springcloud/Config_3344_StartSprintCloudApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -56,11 +64,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-serviceprovider-dept-hystrix-8001/src" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-config-3344/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4073648" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -70,14 +78,28 @@
       <recent name="springcloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-config-3344\src" />
+      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-config-3344" />
       <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-serviceprovider-dept-hystrix-8001\src" />
       <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-consumer-dept-feign\src" />
       <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\mciroservicecloud-provider-dept-8003\src\main" />
-      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\mciroservicecloud-provider-dept-8003\src" />
-      <recent name="D:\Code\git\SpringCloudDemo\microservicecloud\microservicecloud-provider-dept-8002\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Zuul_9527_StartSpringCloudApp">
+  <component name="RunManager" selected="Spring Boot.Config_3344_StartSprintCloudApp">
+    <configuration name="Config_3344_StartSprintCloudApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-config-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.Config_3344_StartSprintCloudApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptConsumer80_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-dept-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.DeptConsumer80_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeptConsumer80_Feign_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservicecloud-consumer-dept-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.michael.springcloud.DeptConsumer80_Feign_App" />
@@ -226,6 +248,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2360" y="94" key="#Project_Structure" timestamp="1600569449912">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600569449912" />
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600498430597">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -246,54 +272,54 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2654" y="261" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600497499994" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.0.bottom" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.0.center" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.0.left" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.0.right" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.1.bottom" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.1.center" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.1.center" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.1.left" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.1.left" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
-    <state width="1877" height="271" key="GridCell.Tab.1.right" timestamp="1600563133591">
+    <state width="1436" height="402" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
+    <state width="1436" height="402" key="GridCell.Tab.1.right" timestamp="1600570334943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600563133591" />
+    <state width="1436" height="402" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570334943" />
     <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1600478512350">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2410" y="175" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600478512350" />
-    <state x="2360" y="94" key="SettingsEditor" timestamp="1600176591160">
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1600570009008">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2360" y="94" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600176591160" />
+    <state x="2360" y="94" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570009008" />
     <state x="2582" y="254" width="719" height="532" key="find.popup" timestamp="1600502968618">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2582" y="254" width="719" height="532" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600502968618" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1600561392222">
+    <state x="2254" y="180" key="new project wizard" timestamp="1600570210529">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600561392222" />
+    <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600570210529" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
