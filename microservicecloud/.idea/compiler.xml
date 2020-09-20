@@ -14,6 +14,7 @@
         <module name="mciroservicecloud-provider-dept-8003" />
         <module name="microservicecloud-consumer-dept-feign" />
         <module name="microservicecloud-consumer-dept-80" />
+        <module name="microservicecloud-zuul-gateway-9527" />
         <module name="micorservicecloud-provider-dept-8001" />
         <module name="microservicecloud-serviceprovider-dept-hystrix-8001" />
         <module name="microservicecloud-api" />
