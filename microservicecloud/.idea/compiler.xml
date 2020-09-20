@@ -10,7 +10,9 @@
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-config-dept-client-8001" />
         <module name="microservicecloud-zuul-gateway-9527" />
+        <module name="microservicecloud-config-eureka-client-7001" />
         <module name="microservicecloud-config-client-3355" />
         <module name="micorservicecloud-provider-dept-8001" />
         <module name="microservicecloud-serviceprovider-dept-hystrix-8001" />
